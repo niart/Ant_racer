@@ -1,0 +1,54 @@
+<mujocoinclude>
+  <body name="torso2" pos="0.8 0.8 1.75"><!--1 1 1.75-->
+    <geom class="bug" name="torso_geom2" pos="0 0 0" size="0.15" type="sphere"/>
+    <joint armature="0" damping="0" limited="false" margin="0.01" name="root2" pos="0 0 0" type="free"/>
+    <!-- Front left leg -->
+    <body name="front_left_leg2" pos="0 0 0">
+      <geom class="bug" fromto="0.0 0.0 0.0 -0.12 0.12 0.0" name="aux_1_geom2" size="0.048" type="capsule"/>
+      <body name="aux_112" pos="-0.12 0.12 0">
+        <joint axis="0 0 1" name="hip_12" pos="0.0 0.0 0.0" range="-30 30" type="hinge"/>
+        <geom class="bug" fromto="0.0 0.0 0.0 -0.12 0.12 0.0" name="front_left_leg_geom2" size="0.048" type="capsule"/>
+        <body name="aux_122" pos="-0.12 0.12 0">
+          <joint axis="1 1 0" name="ankle_12" pos="0.0 0.0 0.0" range="-70 -30" type="hinge"/>
+          <geom class="bug" fromto="0.0 0.0 0.0 -0.24 0.24 0.0" name="front_left_ankle_geom2" size="0.048" type="capsule"/>
+        </body>
+      </body>
+    </body>
+    <!-- Front right leg -->
+    <body name="front_right_leg2" pos="0 0 0">
+      <geom class="bug" fromto="0.0 0.0 0.0 0.12 0.12 0.0" name="aux_2_geom2" size="0.048" type="capsule"/>
+      <body name="aux_212" pos="0.12 0.12 0">
+        <joint axis="0 0 1" name="hip_22" pos="0.0 0.0 0.0" range="-30 30" type="hinge"/>
+        <geom class="bug" fromto="0.0 0.0 0.0 0.12 0.12 0.0" name="front_right_leg_geom2" size="0.048" type="capsule"/>
+        <body name="aux_222" pos="0.12 0.12 0">
+          <joint axis="-1 1 0" name="ankle_22" pos="0.0 0.0 0.0" range="30 70" type="hinge"/>
+          <geom class="bug" fromto="0.0 0.0 0.0 0.24 0.24 0.0" name="front_right_ankle_geom2" size="0.048" type="capsule"/>
+        </body>
+      </body>
+    </body>
+    <!-- Back left leg -->
+    <body name="back_left_leg2" pos="0 0 0">
+      <geom class="bug" fromto="0.0 0.0 0.0 -0.12 -0.12 0.0" name="aux_3_geom2" size="0.048" type="capsule"/>
+      <body name="aux_312" pos="-0.12 -0.12 0">
+        <joint axis="0 0 1" name="hip_32" pos="0.0 0.0 0.0" range="-30 30" type="hinge"/>
+        <geom class="bug" fromto="0.0 0.0 0.0 -0.12 -0.12 0.0" name="back_left_leg_geom2" size="0.048" type="capsule"/>
+        <body name="aux_322" pos="-0.12 -0.12 0">
+          <joint axis="-1 1 0" name="ankle_32" pos="0.0 0.0 0.0" range="-70 -30" type="hinge"/>
+          <geom class="bug" fromto="0.0 0.0 0.0 -0.24 -0.24 0.0" name="back_left_ankle_geom2" size="0.048" type="capsule"/>
+        </body>
+      </body>
+    </body>
+    <body name="back_right_leg2" pos="0 0 0">
+      <geom class="bug" fromto="0.0 0.0 0.0 0.12 -0.12 0.0" name="aux_4_geom2" size="0.048" type="capsule"/>
+      <body name="aux_412" pos="0.12 -0.12 0">
+        <joint axis="0 0 1" name="hip_42" pos="0.0 0.0 0.0" range="-30 30" type="hinge"/>
+        <geom class="bug" fromto="0.0 0.0 0.0 0.12 -0.12 0.0" name="back_right_leg_geom2" size="0.048" type="capsule"/>
+        <body name="aux_422" pos="0.12 -0.12 0">
+          <joint axis="1 1 0" name="ankle_42" pos="0.0 0.0 0.0" range="30 70" type="hinge"/>
+          <geom class="bug" fromto="0.0 0.0 0.0 0.24 -0.24 0.0" name="back_right_ankle_geom2" size="0.048" type="capsule"/>
+        </body>
+      </body>
+    </body>
+  </body>
+</mujocoinclude>
+

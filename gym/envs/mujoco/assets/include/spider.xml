@@ -1,0 +1,53 @@
+<mujocoinclude>
+  <body name="torso3" pos="3.5 2.1 1">
+    <geom class="spider" name="torso_geom3" pos="0 0 0" size="0.25" type="sphere"/>
+    <joint armature="0" damping="0" limited="false" margin="0.01" name="root3" pos="0 0 0" type="free"/>
+    <!-- Front left leg -->
+    <body name="front_left_leg3" pos="0 0 0">
+      <geom class="spider" fromto="0.0 0.0 0.0 -0.2 0.2 0.0" name="aux_1_geom3" size="0.08" type="capsule"/>
+      <body name="aux_113" pos="-0.2 0.2 0">
+        <joint axis="0 0 1" name="hip_13" pos="0.0 0.0 0.0" range="-30 30" type="hinge"/>
+        <geom class="spider" fromto="0.0 0.0 0.0 -0.2 0.2 0.0" name="front_left_leg_geom3" size="0.08" type="capsule"/>
+        <body name="aux_123" pos="-0.2 0.2 0">
+          <joint axis="1 1 0" name="ankle_13" pos="0.0 0.0 0.0" range="-70 -30" type="hinge"/>
+          <geom class="spider" fromto="0.0 0.0 0.0 -0.4 0.4 0.0" name="front_left_ankle_geom3" size="0.08" type="capsule"/>
+        </body>
+      </body>
+    </body>
+    <!-- Front right leg -->
+    <body name="front_right_leg3" pos="0 0 0">
+      <geom class="spider" fromto="0.0 0.0 0.0 0.2 0.2 0.0" name="aux_2_geom3" size="0.08" type="capsule"/>
+      <body name="aux_213" pos="0.2 0.2 0">
+        <joint axis="0 0 1" name="hip_23" pos="0.0 0.0 0.0" range="-30 30" type="hinge"/>
+        <geom class="spider" fromto="0.0 0.0 0.0 0.2 0.2 0.0" name="front_right_leg_geom3" size="0.08" type="capsule"/>
+        <body name="aux_223" pos="0.2 0.2 0">
+          <joint axis="-1 1 0" name="ankle_23" pos="0.0 0.0 0.0" range="30 70" type="hinge"/>
+          <geom class="spider" fromto="0.0 0.0 0.0 0.4 0.4 0.0" name="front_right_ankle_geom3" size="0.08" type="capsule"/>
+        </body>
+      </body>
+    </body>
+    <!-- Back left leg -->
+    <body name="back_left_leg3" pos="0 0 0">
+      <geom class="spider" fromto="0.0 0.0 0.0 -0.2 -0.2 0.0" name="aux_3_geom3" size="0.08" type="capsule"/>
+      <body name="aux_313" pos="-0.2 -0.2 0">
+        <joint axis="0 0 1" name="hip_33" pos="0.0 0.0 0.0" range="-30 30" type="hinge"/>
+        <geom class="spider" fromto="0.0 0.0 0.0 -0.2 -0.2 0.0" name="back_left_leg_geom3" size="0.08" type="capsule"/>
+        <body name="aux_323" pos="-0.2 -0.2 0">
+          <joint axis="-1 1 0" name="ankle_33" pos="0.0 0.0 0.0" range="-70 -30" type="hinge"/>
+          <geom class="spider" fromto="0.0 0.0 0.0 -0.4 -0.4 0.0" name="back_left_ankle_geom3" size="0.08" type="capsule"/>
+        </body>
+      </body>
+    </body>
+    <body name="back_right_leg3" pos="0 0 0">
+      <geom class="spider" fromto="0.0 0.0 0.0 0.2 -0.2 0.0" name="aux_4_geom3" size="0.08" type="capsule"/>
+      <body name="aux_413" pos="0.2 -0.2 0">
+        <joint axis="0 0 1" name="hip_43" pos="0.0 0.0 0.0" range="-30 30" type="hinge"/>
+        <geom class="spider" fromto="0.0 0.0 0.0 0.2 -0.2 0.0" name="back_right_leg_geom3" size="0.08" type="capsule"/>
+        <body name="aux_423" pos="0.2 -0.2 0">
+          <joint axis="1 1 0" name="ankle_43" pos="0.0 0.0 0.0" range="30 70" type="hinge"/>
+          <geom class="spider" fromto="0.0 0.0 0.0 0.4 -0.4 0.0" name="back_right_ankle_geom3" size="0.08" type="capsule"/>
+        </body>
+      </body>
+    </body>
+  </body>
+</mujocoinclude>
