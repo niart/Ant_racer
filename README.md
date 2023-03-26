@@ -4,9 +4,7 @@ This project is a variant of multi-agent game platform [TripleSumo](https://link
 
 Steps of installing this platform:
 1. Download Mujoco200 from: https://www.roboti.us/download.html, extract it in 
-   ```
-   /home/your_username/.mujoco/
-   ```
+   ```/home/your_username/.mujoco/ ```
 2. Add "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/your_username/.mujoco/mujoco200/bin" to your ~/.bashrc, and then "source ~/.bashrc"
 3. git clone https://github.com/niart/Ant_racer.git and "cd Ant_racer"
 4. Create a virtual environment, then in workspace Ant_racer, "conda env create -f ant_racer_env.yml"
