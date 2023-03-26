@@ -13,4 +13,4 @@ Steps of installing this platform:
 
 A simple RL algorithm interface has been written in ```chase_runmanin.py``` which implement DDPG.
 An overview of Ant_racer game:
-<img src="https://github.com/niart/Ant_racer/blob/e65aa00da53000029a892883fec9e51d56977933/Screenshot%20from%202023-03-26%2001-01-37.png" width=70% height=70%>
+<img src="https://github.com/niart/Ant_racer/blob/e65aa00da53000029a892883fec9e51d56977933/Screenshot%20from%202023-03-26%2001-01-37.png" width=60% height=60%>
