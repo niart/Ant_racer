@@ -5,7 +5,7 @@ A live demo of this game can be found [HERE](https://www.youtube.com/watch?v=egS
 
 Steps of installing this platform:
 1. Download [Mujoco200](https://www.roboti.us/download.html), extract it in 
-   ```/home/your_username/.mujoco/ ```
+   ```/home/your_username/.mujoco/ ```, then download the [license](https://www.roboti.us/license.html) into the same directory
 2. Add ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/your_username/.mujoco/mujoco200/bin``` to your ```~/.bashrc```, and then ```source ~/.bashrc```
 3. git clone https://github.com/niart/Ant_racer.git and "cd Ant_racer"
 4. Create a virtual environment 'Ant_racer' with ```conda env create -f ant_racer_env.yml''' 
