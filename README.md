@@ -1,6 +1,6 @@
 # Ant_racer, 
 ## a virtual Multi-agent pursuit-evasion platform based on OpenAI/Gym and Mujoco
-This project is a variant of platform [TripleSumo](https://link.springer.com/chapter/10.1007/978-3-031-15908-4_15) with new interfaces. 
+This project is a variant of platform [TripleSumo](https://link.springer.com/chapter/10.1007/978-3-031-15908-4_15) (https://github.com/niart/triplesumo). 
 
 To use this platform:
 Dependencies: python==3.7, Gym==10.2, Mujoco>=2.0
