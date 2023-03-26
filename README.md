@@ -7,7 +7,7 @@ Steps of installing Ant_racer:
 1. Download [Mujoco200](https://www.roboti.us/download.html), extract it in 
    ```/home/your_username/.mujoco/ ```, then download the [license](https://www.roboti.us/license.html) into the same directory
 2. Add ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/your_username/.mujoco/mujoco200/bin``` to your ```~/.bashrc```, and then ```source ~/.bashrc```
-3. git clone https://github.com/niart/Ant_racer.git and "cd Ant_racer"
+3. git clone https://github.com/niart/Ant_racer.git and ```cd Ant_racer```
 4. Create a virtual environment 'Ant_racer' with ```conda env create -f ant_racer_env.yml''' 
 5. Use the ```gym``` foler of this repository to replace the ```gym``` installed in your anaconda. 
 6. To test the demo, run ```python chase_demo.py```. If you meet error ```Creating window glfw ... ERROR: GLEW initalization error: Missing GL version```, you may add ```export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so``` to ```~/.bashrc``` to solve it
