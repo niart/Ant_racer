@@ -1,9 +1,12 @@
 # Ant_racer, 
 ## a virtual Multi-agent pursuit-evasion platform based on OpenAI/Gym and Mujoco
-This project is a variant of platform [TripleSumo](https://link.springer.com/chapter/10.1007/978-3-031-15908-4_15) (repository: https://github.com/niart/triplesumo). 
+This project is a variant of multi-agent game platform [TripleSumo](https://link.springer.com/chapter/10.1007/978-3-031-15908-4_15) (repository: https://github.com/niart/triplesumo). 
 
 Steps of installing this platform:
-1. Download Mujoco200 from: https://www.roboti.us/download.html, extract it in "/home/your_username/.mujoco/"
+1. Download Mujoco200 from: https://www.roboti.us/download.html, extract it in 
+   '''
+   /home/your_username/.mujoco/
+   '''
 2. Add "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/your_username/.mujoco/mujoco200/bin" to your ~/.bashrc, and then "source ~/.bashrc"
 3. git clone https://github.com/niart/Ant_racer.git and "cd Ant_racer"
 4. Create a virtual environment, then in workspace Ant_racer, "conda env create -f ant_racer_env.yml"
