@@ -17,9 +17,5 @@ An overview of Ant_racer game:
 <p align="center">
 <img src="https://github.com/niart/Ant_racer/blob/e65aa00da53000029a892883fec9e51d56977933/Screenshot%20from%202023-03-26%2001-01-37.png" width=60% height=60%>
 </p>
-To cite this platform:
-```
-@misc{Ant_racer,
-  howpublished = {\href{https://github.com/niart/Ant_racer}{N. Wang, Ant_racer: a multi-agent pursuit-evasion platform. Github Repository, 2021, https://github.com/niart/Ant_racer}},
-}
-```
+To cite this platform: ```@misc{Ant_racer,
+  howpublished = {\href{https://github.com/niart/Ant_racer}{N. Wang, Ant_racer: a multi-agent pursuit-evasion platform. Github Repository, 2021, https://github.com/niart/Ant_racer}},} ```
