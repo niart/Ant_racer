@@ -10,6 +10,7 @@ Steps of installing this platform:
 4. Create a virtual environment 'Ant_racer' with ```conda env create -f ant_racer_env.yml''' 
 5. Use the ```gym``` foler of this repository to replace the ```gym``` installed in your anaconda. 
 6. To test the demo, run ```python chase_demo.py```. If you meet error ```Creating window glfw ... ERROR: GLEW initalization error: Missing GL version```, you may add ```export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so``` to ```~/.bashrc``` to solve it
+
 A simple RL algorithm interface has been written in ```chase_runmanin.py``` which implement DDPG.
 An overview of Ant_racer game:
 
