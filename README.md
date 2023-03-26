@@ -3,7 +3,7 @@
 This project is a variant of multi-agent game platform TripleSumo ([Paper](https://link.springer.com/chapter/10.1007/978-3-031-15908-4_15), [repository]( https://github.com/niart/triplesumo)). 
 A live demo of this game can be found [HERE](https://www.youtube.com/watch?v=egSRK1eWnf4). You're welcome to visit the author's [Youtube page](https://www.youtube.com/@intelligentautonomoussyste5467/videos) to find more about her work. Contact her at niwang.cs@gmail.com if you have inquiry.
 
-Steps of installing this platform:
+Steps of installing Ant_racer:
 1. Download [Mujoco200](https://www.roboti.us/download.html), extract it in 
    ```/home/your_username/.mujoco/ ```, then download the [license](https://www.roboti.us/license.html) into the same directory
 2. Add ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/your_username/.mujoco/mujoco200/bin``` to your ```~/.bashrc```, and then ```source ~/.bashrc```
