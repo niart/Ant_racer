@@ -12,7 +12,7 @@ Steps of installing Ant_racer:
 5. Use the ```gym``` foler of this repository to replace the ```gym``` installed in your anaconda. 
 6. To test the demo, run ```python chase_demo.py```. If you meet error ```Creating window glfw ... ERROR: GLEW initalization error: Missing GL version```, you may add ```export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so``` to ```~/.bashrc``` to solve it
 
-A simple RL algorithm interface has been written in ```chase_runmanin.py``` which implement DDPG.
+A simple RL algorithm interface has been written in ```chase_runmanin.py``` which implement DDPG. Important training steps are in: Ant_racer/gym/envs/mujoco/chase.py
 An overview of Ant_racer game:
 <p align="center">
 <img src="https://github.com/niart/Ant_racer/blob/e65aa00da53000029a892883fec9e51d56977933/Screenshot%20from%202023-03-26%2001-01-37.png" width=60% height=60%>
